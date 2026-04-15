@@ -21,8 +21,7 @@ work_study/
 ├── supervisor/          # Supervisor login/registration
 ├── index.php            # Role selection page
 ├── student_login.php    # Student login
-├── supervisor_login.php # Supervisor login
-├── admin_login.php      # Admin login
+├── supervisor_login.php # Supervisor & Admin login
 ├── student_dashboard.php # Main student interface
 ├── db.php               # Database connection (not tracked in git)
 └── logout.php           # Logout handler
@@ -77,17 +76,12 @@ work_study/
 - Track work-study status
 - View approved hours
 
-### Supervisor
+### Supervisor & Admin
 - Create and manage job postings
 - Approve/reject student work logs
 - Monitor student hours
 - Generate reports
-
-### Admin
-- Approve student registrations
-- Approve supervisor accounts
-- View all work logs
-- System-wide management and reporting
+- System-wide management (Admin role)
 
 ## Usage
 
@@ -98,9 +92,9 @@ work_study/
 
 ## Testing Credentials
 
-- For admin: Use credentials from the `admins` table
-- Students and supervisors must register and be approved by admin
+- For admin/supervisor: Use credentials from the `supervisors` table
 - Test supervisor can have staff_id starting with "ADM" to auto-set as admin role
+- Students must register and be approved by admin
 
 ## Security Notes
 

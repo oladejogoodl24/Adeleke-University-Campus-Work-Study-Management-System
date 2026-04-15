@@ -114,13 +114,8 @@
         </div>
 
         <div class="card" onclick="location.href='supervisor_login.php'">
-            <h3>Supervisor</h3>
-            <p>Manage job postings and approve student work hours</p>
-        </div>
-
-        <div class="card" onclick="location.href='admin_login.php'">
-            <h3>Admin (Bursary/HR)</h3>
-            <p>Manage system-wide approvals and reports</p>
+            <h3>Supervisor & Admin</h3>
+            <p>Manage job postings, approve work hours, and system administration</p>
         </div>
     </div>
 
