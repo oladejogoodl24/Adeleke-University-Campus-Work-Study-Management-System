@@ -1,0 +1,33 @@
+# Database configuration (sensitive credentials)
+db.php
+
+# Database backups and archives
+*.sql
+db.zip
+*.zip
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Installation/temp files
+test.php
+hash.php
+dump_work_logs_schema.php
+
+# OS generated files
+.env
+.env.local
+*.log
+
+# Backup files
+*~
+*.bak
+*.backup
